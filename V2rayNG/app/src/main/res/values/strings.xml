@@ -157,6 +157,9 @@
     <string name="title_pref_promotion">Promotion</string>
     <string name="summary_pref_promotion">Promotion,click for details(Donation can be removed)</string>
 
+    <string name="title_pref_auto_start_enabled">Enabled start after boot</string>
+    <string name="summary_pref_auto_start_enabled">Start after the system boots</string>
+
     <string name="title_core_loglevel">Log Level</string>
     <string name="title_mode">Mode</string>
     <string name="title_mode_help">Click me for more help</string>

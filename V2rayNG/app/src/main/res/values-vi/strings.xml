@@ -156,6 +156,9 @@
     <string name="title_pref_promotion">Quảng cáo Server</string>
     <string name="summary_pref_promotion">Quảng cáo,nhấn để biết thêm(Ủng hộ có thể được gỡ bỏ)</string>
 
+    <string name="title_pref_auto_start_enabled">Enabled start after boot</string>
+    <string name="summary_pref_auto_start_enabled">Start after the system boots</string>
+
     <string name="title_core_loglevel">Mức độ nhật ký</string>
     <string name="title_mode">Chế độ kết nối</string>
     <string name="title_mode_help">Nhấn vào đây nếu bạn cần trợ giúp</string>
