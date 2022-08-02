@@ -154,6 +154,9 @@
     <string name="title_pref_promotion">推廣</string>
     <string name="summary_pref_promotion">一些推廣，輕觸以檢視 (捐贈可去除)</string>
 
+    <string name="title_pref_auto_start_enabled">開機時啟動</string>
+    <string name="summary_pref_auto_start_enabled">系統引導完成後啟動</string>
+
     <string name="title_core_loglevel">記錄層級</string>
     <string name="title_mode">模式</string>
     <string name="title_mode_help">輕觸以檢視說明</string>

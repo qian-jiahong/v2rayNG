@@ -42,6 +42,7 @@ class SettingsViewModel(application: Application) : AndroidViewModel(application
             AppConfig.PREF_V2RAY_ROUTING_DIRECT, -> {
                 settingsStorage?.encode(key, sharedPreferences.getString(key, ""))
             }
+            AppConfig.PREF_AUTO_START_ENABLED,
             AppConfig.PREF_SPEED_ENABLED,
             AppConfig.PREF_PROXY_SHARING,
             AppConfig.PREF_LOCAL_DNS_ENABLED,

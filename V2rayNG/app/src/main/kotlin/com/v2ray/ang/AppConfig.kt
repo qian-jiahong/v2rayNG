@@ -15,6 +15,7 @@ object AppConfig {
 
     // Preferences mapped to MMKV
     const val PREF_MODE = "pref_mode"
+    const val PREF_AUTO_START_ENABLED = "pref_auto_start_enabled"
     const val PREF_SPEED_ENABLED = "pref_speed_enabled"
     const val PREF_SNIFFING_ENABLED = "pref_sniffing_enabled"
     const val PREF_PROXY_SHARING = "pref_proxy_sharing_enabled"
