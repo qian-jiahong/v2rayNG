@@ -19,7 +19,7 @@ android {
         targetSdkVersion Integer.parseInt("$targetSdkVer")
         multiDexEnabled true
         versionCode 470
-        versionName "1.7.17"
+        versionName "1.8.0"
     }
 
     signingConfigs {
@@ -112,8 +112,8 @@ dependencies {
 
     //kotlin
     implementation "org.jetbrains.kotlin:kotlin-reflect:$kotlinVersion"
-    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2"
-    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.1"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.1"
 
     implementation 'com.tencent:mmkv-static:1.2.12'
     implementation 'com.google.code.gson:gson:2.8.9'
@@ -135,6 +135,5 @@ buildscript {
         mavenCentral()
         maven { url 'https://maven.google.com' }
         maven { url 'https://jitpack.io' }
-        jcenter()
     }
 }
